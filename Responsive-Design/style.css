@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+}
+
+.box1 {
+    background-color: aquamarine;
+    width: 45%;
+    height: 45%;
+}
+
+.box2 {
+    background-color: green;
+    width: 45%;
+    height: 45%;
+    margin-top: 10px;
+}
+
+.box3 {
+    background-color: blue;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+}
+
+.box4 {
+    background-color: yellow;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    left: 50%;
+    top: 47.7%;
+}
+
+@media (max-width: 700px) {
+    .box1 {
+        margin-left: 130px;
+    }
+    .box2 {
+        margin-left: 130px;
+    }
+    .box3 {
+        position: static;
+        margin-left: 130px;
+        margin-top: 10px;
+    }
+    .box4 {
+        position: static;
+        margin-left: 130px;
+        margin-top: 10px;
+    }
+}

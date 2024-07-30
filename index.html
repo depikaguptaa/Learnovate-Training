@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .container {
+            background-color: aqua;
+            height: 200px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+        
+        .container-2 {
+            background-color: red;
+            height: 60px;
+            width: 60px;
+            color: yellow;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius: 50%;
+            top: 50px;
+        }
+    </Style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-2">
+            <p>Child</p>
+        </div>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+
+    <script>
+        var num1 = prompt("Enter first value...");
+        var num2 = prompt("Enter second value...");
+
+        var newNum1 = Number(num1);
+        var newNum2 = Number(num2);
+
+        console.log(newNum1 + newNum2);
+    </script>
+</body>
+
+</html>
