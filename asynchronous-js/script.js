@@ -1,4 +1,4 @@
-// function getData(callback) { // callback function - iske through kisi function ko kisi doosre function mein as a parameter call kr skte hai.
+// function getData(callback) { // callback function - iske through kisi function ko kisi doosre function mein as a parameter pass krke call kr skte hai.
 //     console.log("Getting Data...");
 //     callback();
 // }
