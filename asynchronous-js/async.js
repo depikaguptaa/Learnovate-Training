@@ -2,11 +2,11 @@ function async(callback) {
     console.log("Getting Data...");
     setTimeout(() => {
         callback();
-    }, 2000);
+    }, 1000);
 
     setTimeout(() => {
         console.log("Data Printed!");
-    }, 3000);
+    });
 }
 
 function getName() {
